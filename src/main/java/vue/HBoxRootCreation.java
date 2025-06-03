@@ -172,13 +172,16 @@ public class HBoxRootCreation extends HBox {
         Label lblSelection = new Label("Selectionner scenario :");
 
         Label titre = new Label("Creation");
+        Label titre2 = new Label("Ajouter vente");
         titre.setId("titre");
+        titre2.setId("titre");
 
         container.getChildren().addAll(
                 titre,
                 creationBox,
                 btnCreer,
                 sep,
+                titre2,
                 lblSelection,
                 comboBoxScenarios,
                 lblMembre1,
